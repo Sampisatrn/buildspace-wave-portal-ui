@@ -22,7 +22,7 @@ Cuando un usuario deja un mensaje tiene un ***50% de probabilidad de ganar una r
 
 Este fue un proyecto con fin 100% académico mientras realizaba los cursos de la plataforma **[buildspace](https://buildspace.so/)**, la cual recomiendo a todo desarrollador que quiera comenzar a desarrollar para la web3.
 
-Pueden probar la aplicación ingresando al siguiente link: **[Wave Portal 🦄](https://sampi-wave-portal-ui.vercel.app/)**
+Pueden probar la aplicación ingresando al siguiente link: **[Wave Portal 🔻](https://sampi-wave-portal-ui.vercel.app/)**
 
 La aplicación está conectándose a un smart-contract desarrollado con la tecnología **[Solidity](https://solidity-es.readthedocs.io/es/latest/#)**, pueden revisar su repo [aquí](https://github.com/Sampisatrn/My-Wave-Portal-SC)
 
