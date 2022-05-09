@@ -1,3 +1,4 @@
+/* eslint-disable no-sequences */
 /* eslint-disable react/react-in-jsx-scope */
 import { useEffect, useRef, useState } from 'react'
 import Head from 'next/head'
@@ -185,6 +186,7 @@ export default function Home () {
     checkIfWalletIsConnected()
     getWaves()
     getAllWaves()
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   // Escucho eventos del smart-contract
@@ -202,6 +204,7 @@ export default function Home () {
         wavePortalContract.off('NewWave', onNewWave)
       }
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   return (
@@ -209,6 +212,7 @@ export default function Home () {
       align={'center'}
       justify={'space-around'}
       direction={'column'}
+      // eslint-disable-next-line no-sequences
       w={'15%', '25%', '50%', '100%'}
       minH={'100vh'}
       py={100}
@@ -228,7 +232,7 @@ export default function Home () {
         <Text
           id='top'
           as='h1'
-          fontSize={{ base: '25px',  md: '30px', lg: '45px' }}
+          fontSize={{ base: '25px', md: '30px', lg: '45px' }}
           fontWeight={900}
           letterSpacing={'1px'}
         >
