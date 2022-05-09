@@ -2,11 +2,11 @@
 import { useEffect, useRef, useState } from 'react'
 import Head from 'next/head'
 import { ethers } from 'ethers'
-import { Button, Flex, Text, useColorMode, IconButton, Icon, Link, Spinner, Modal, ModalOverlay, ModalContent, ModalHeader, ModalCloseButton, ModalBody, FormControl, FormLabel, Input, ModalFooter, useDisclosure, useToast, Image, Tooltip } from '@chakra-ui/react'
+import { Button, Flex, Text, useColorMode, IconButton, Icon, Link, Spinner, Modal, ModalOverlay, ModalContent, ModalHeader, ModalCloseButton, ModalBody, FormControl, FormLabel, Input, ModalFooter, useDisclosure, useToast, Image, Tooltip, extendTheme} from '@chakra-ui/react'
 import WavePortal from '../utils/WavePortal.json'
 import { MoonIcon, SunIcon } from '@chakra-ui/icons'
-import { FaLinkedin, FaGithub, FaEthereum } from 'react-icons/fa'
-import LOGO from '../public/horn.png'
+import { FaTwitter, FaGithub, FaEthereum } from 'react-icons/fa'
+import LOGO from '../public/sampi.png'
 
 console.log('LOGO', LOGO)
 
@@ -24,11 +24,11 @@ export default function Home () {
   const [value, setValue] = useState(null) // Valor del input
 
   // Nuestra direccion del contrato que desplegamos.
-  const contractAddress = '0xef10AE1B845aEC9251c19cc5af7d4dda7424F52D'
+  const contractAddress = '0xB695A9d8f39E55a292566DE378Aaa93AF717CCF9'
   // Nuestro abi del contrato
   const contractABI = WavePortal.abi
-  // random avatares
-  const avatars = ['🐵', '🐶', '🐺', '🐱', '🦁', '🐯', '🦒', '🦊', '🦝', '🐮', '🐷', '🐗', '🐭', '🐹', '🐰', '🐻', '🐨', '🐼', '🐸', '🦓', '🐴', '🦄', '🐔', '🐲']
+  // avatares
+  const avatars = ['👾','🦉','🐙','🦂','🐞','🦋','👻','👽','🤖','🐵', '🐶', '🐺', '🐱', '🦁', '🐯', '🦒', '🦊', '🦝', '🐮', '🐷', '🐗', '🐭', '🐹', '🐰', '🐻', '🐨', '🐼', '🐸', '🦓', '🐴', '🦄', '🐔', '🐲']
 
   const getRandomAvatar = () => {
     let avatar = Math.random() * (24 - 1) + 1
@@ -204,18 +204,19 @@ export default function Home () {
     }
   }, [])
 
+  
   return (
     <Flex
       align={'center'}
       justify={'space-around'}
       direction={'column'}
-      w={'100%'}
+      w={'15%','25%','50%','100%'}
       minH={'100vh'}
       py={100}
     >
       <Head>
-        <title>buildsapce-wave-ui</title>
-        <meta name="description" content="buildspace-wave-ui with Next.js" />
+        <title>buildsapce-my-wave-ui</title>
+        <meta name="description" content="buildspace-my-wave-ui with Next.js" />
         <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"></link>
       </Head>
 
@@ -223,36 +224,36 @@ export default function Home () {
         align={'center'}
         justify={'center'}
         direction={'column'}
-        w={'50%'}
+        w={'15%','25%','50%','100%'}
       >
         <Text
           id='top'
           as='h1'
-          fontSize={'3xl'}
+          fontSize={{ base: '25px',  md: '30px', lg: '45px' }}
           fontWeight={900}
           letterSpacing={'1px'}
         >
-          {"Hi 👋, I'm Braian and"}
+          {"Hi 🤙 , I'm Sampi and"}
         </Text>
         <Text
           as='h3'
           my={10}
-          fontSize={'5xl'}
+          fontSize={{ base: '28px', md: '40px', lg: '56px' }}
           fontWeight={600}
           letterSpacing={'.5px'}
         >
-          Welcome to Wave Portal 🦄
+          Welcome to Wave Portal ▼
         </Text>
 
         {/* Enviar una wave */}
         <Button
-          mt={5}
+          mt={ 1, 2, 3, 4, 5}
           p={4}
-          w={'30%'}
+          w={'5%','10%', '15%', '20%','30%'}
           fontWeight={'bold'}
           letterSpacing={1}
           borderRadius={'md'}
-          bgGradient={'linear(to-r, pink.300, pink.500)'}
+          bgGradient={'linear(to-r, green.400, pink.700)'}
           color={'white'}
           boxShadow={'2xl'}
           _hover={{
@@ -268,8 +269,8 @@ export default function Home () {
         {/* Conectar billetera */}
         {!currentAccount && (
           <Button
-            mt={10}
-            w={'30%'}
+            mt={ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+            w={'5%','10%', '15%', '20%','30%'}
             letterSpacing={1}
             borderRadius={'md'}
             bg={'gray.600'}
@@ -292,7 +293,7 @@ export default function Home () {
         direction={'column'}
         align={'center'}
         justify={'center'}
-        w={'50%'}
+        w={'15%','25%','30%','50%'}
       >
         {loader
           ? (
@@ -300,13 +301,13 @@ export default function Home () {
             direction={'column'}
             align={'center'}
             justify={'center'}
-            w={'100%'}
+            w={'15%','25%','30%','50%','100%'}
           >
             <Spinner
               thickness='6px'
               speed='0.45s'
-              emptyColor='pink.100'
-              color='pink.500'
+              emptyColor='green.400'
+              color='pink.700'
               size='xl'
             />
             <Text
@@ -322,13 +323,14 @@ export default function Home () {
                 direction={'column'}
                 align={'center'}
                 justify={'center'}
-                w={'100%'}
+                w={'15%','25%','30%','50%','100%'}
                 py={25}
               >
                 <Text
                   fontSize={'2xl'}
                   fontStyle={'italic'}
-                  bgGradient={'linear(to-r, pink.300, pink.500)'}
+                  fontWeight={600}
+                  bgGradient={'linear(to-r, purple.300, purple.600)'}
                   bgClip='text'
                 >
                   Total waves {total}
@@ -344,14 +346,15 @@ export default function Home () {
                   direction={'column'}
                   align={'flex-start'}
                   justify={'center'}
-                  width={'100%'}
+                  width={'15%','25%','30%','50%','100%'}
                   borderWidth={4}
-                  borderColor={'pink.300'}
+                  borderColor={'purple.600'}
                   borderRadius={'md'}
                 >
                   <Text
                     fontWeight={'bold'}
                     fontSize={'initial'}
+                    width={'15%','25%','30%','50%','100%'}
                   >
                     {getRandomAvatar()} {wave.address}
                   </Text>
@@ -364,6 +367,7 @@ export default function Home () {
                   </Text>
                   <Text
                     fontSize={'2xl'}
+                    width={'15%','25%','30%','50%','100%'}
                   >
                     {'> '} {wave.message}
                   </Text>
@@ -385,16 +389,17 @@ export default function Home () {
       >
         <ModalOverlay />
         <ModalContent>
-          <ModalHeader>🦄 Hey you!</ModalHeader>
+          <ModalHeader>▼ Hey you!</ModalHeader>
           <ModalCloseButton />
           <ModalBody pb={6}>
             <FormControl>
               <FormLabel>Wave at me!</FormLabel>
               <Input
-                focusBorderColor='pink.300'
+                focusBorderColor='green.300'
                 ref={initialRef}
                 placeholder='...'
                 onChange={handleInputValue}
+                width={'15%','25%','30%','50%','100%'}
               />
             </FormControl>
           </ModalBody>
@@ -402,8 +407,9 @@ export default function Home () {
           <ModalFooter>
             <Button
               borderRadius={'md'}
-              bgGradient={'linear(to-r, pink.300, pink.500)'}
+              bgGradient={'linear(to-r, pink.400, purple.500)'}
               color={'white'}
+              width={'15%','25%','30%','50%','100%'}
               mr={3}
               _hover={{
                 opacity: value ? '.9' : '.2',
@@ -427,19 +433,19 @@ export default function Home () {
         direction={'row'}
         justify={'center'}
         align={'center'}
-        w={'50%'}
+        w={'15%','25%','30%','50%'}
         mt={100}
       >
-        <Tooltip hasArrow label={'linkedin'} bg={'gray.900'} color={'white'}>
+        <Tooltip hasArrow label={'Twitter'} bg={'gray.900'} color={'white'}>
           <IconButton
             mx={5}
             _hover={{
               cursor: 'pointer',
-              color: 'pink.100'
+              color: 'green.100'
             }}
             as={Link}
-            href={'https://www.linkedin.com/in/braianvaylet/'}
-            icon={<Icon as={FaLinkedin} w={7} h={7} />}
+            href={'https://twitter.com/Samp_strn/'}
+            icon={<Icon as={FaTwitter} w={7} h={7} />}
           />
         </Tooltip>
         <Tooltip hasArrow label={'github'} bg={'gray.900'} color={'white'}>
@@ -447,10 +453,10 @@ export default function Home () {
             mx={5}
             _hover={{
               cursor: 'pointer',
-              color: 'pink.100'
+              color: 'green.100'
             }}
             as={Link}
-            href={'https://github.com/BraianVaylet'}
+            href={'https://github.com/Sampisatrn'}
             icon={<Icon as={FaGithub} w={7} h={7} />}
           />
         </Tooltip>
@@ -459,7 +465,7 @@ export default function Home () {
             mx={5}
             _hover={{
               cursor: 'pointer',
-              color: 'pink.100'
+              color: 'green.100'
             }}
             as={Link}
             href={'#top'}
@@ -471,7 +477,7 @@ export default function Home () {
             mx={5}
             _hover={{
               cursor: 'pointer',
-              color: 'pink.100'
+              color: 'green.100'
             }}
             onClick={toggleColorMode}
             icon={
@@ -486,7 +492,7 @@ export default function Home () {
             mx={5}
             _hover={{
               cursor: 'pointer',
-              color: 'pink.100'
+              color: 'green.100'
             }}
             as={Link}
             href={`https://rinkeby.etherscan.io/address/${contractAddress}`}

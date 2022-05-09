@@ -8,12 +8,12 @@ const customTheme = extendTheme({
     global: props => ({
       'html, body': {
         fontSize: 'md',
-        color: props.colorMode === 'dark' ? 'white' : 'gray.600',
+        color: props.colorMode === 'dark' ? 'white' : 'purple.900',
         lineHeight: 'tall',
         scrollBehavior: 'smooth'
       },
       a: {
-        color: props.colorMode === 'dark' ? 'teal.300' : 'teal.500'
+        color: props.colorMode === 'dark' ? 'pink.800' : 'purple.900'
       }
     })
   },

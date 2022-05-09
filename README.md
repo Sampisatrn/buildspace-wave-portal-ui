@@ -1,8 +1,8 @@
 <p align="center" width="200">
-   <img align="center" width="100" src="https://raw.githubusercontent.com/BraianVaylet/buildspace-wave-portal-ui/main/public/horn.png" />   
+   <img align="center" width="100" src="https://raw.githubusercontent.com/Sampisatrn/buildspace-wave-portal-ui/main/public/sampi.png" />   
 </p>
 
-# 🦄 Wave Portal [UI]
+# 🖖 Wave Portal [UI]
 
 El proyecto se encuentra deployado en Vercel para que puedan verlo e interactuar con él, toda crítica o comentario se agradece, pueden acceder a la demo en el siguiente link:
 
@@ -10,7 +10,7 @@ El proyecto se encuentra deployado en Vercel para que puedan verlo e interactuar
 
 Este proyecto consume un smart-contract desarrollado en Solidity utilizando el framework HardHat, pueden encontrar el repositorio en el siguiente link:
 
-### [REPO SMART-CONTRACT](https://github.com/BraianVaylet/buildspace-wave-portal)
+### [REPO SMART-CONTRACT](https://github.com/Sampisatrn/My-Wave-Portal-SC)
 
 ## Sobre el proyecto:
 
@@ -22,19 +22,11 @@ Cuando un usuario deja un mensaje tiene un ***50% de probabilidad de ganar una r
 
 Este fue un proyecto con fin 100% académico mientras realizaba los cursos de la plataforma **[buildspace](https://buildspace.so/)**, la cual recomiendo a todo desarrollador que quiera comenzar a desarrollar para la web3.
 
-### [[NFT] CURSO COMPLETO](https://opensea.io/assets/matic/0x3CD266509D127d0Eac42f4474F57D0526804b44e/11102?force_update=true)
 
 Pueden probar la aplicación ingresando al siguiente link: **[Wave Portal 🦄](https://buildspace-wave-portal-ui.vercel.app/)**
 
-La aplicación está conectándose a un smart-contract desarrollado con la tecnología **[Solidity](https://solidity-es.readthedocs.io/es/latest/#)**, pueden revisar su repo [aquí](https://github.com/BraianVaylet/buildspace-wave-portal)
+La aplicación está conectándose a un smart-contract desarrollado con la tecnología **[Solidity](https://solidity-es.readthedocs.io/es/latest/#)**, pueden revisar su repo [aquí](https://github.com/Sampisatrn/My-Wave-Portal-SC)
 
-## Algunas capturas del proyecto:
-
-![screenshot#1](https://raw.githubusercontent.com/BraianVaylet/buildspace-wave-portal-ui/main/screenshot/1.png)
-
-![screenshot#2](https://raw.githubusercontent.com/BraianVaylet/buildspace-wave-portal-ui/main/screenshot/2.png)
-
-![screenshot#3](https://raw.githubusercontent.com/BraianVaylet/buildspace-wave-portal-ui/main/screenshot/3.png)
 
 ---
 
