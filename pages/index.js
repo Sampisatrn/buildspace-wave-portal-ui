@@ -2,7 +2,7 @@
 import { useEffect, useRef, useState } from 'react'
 import Head from 'next/head'
 import { ethers } from 'ethers'
-import { Button, Flex, Text, useColorMode, IconButton, Icon, Link, Spinner, Modal, ModalOverlay, ModalContent, ModalHeader, ModalCloseButton, ModalBody, FormControl, FormLabel, Input, ModalFooter, useDisclosure, useToast, Image, Tooltip, extendTheme} from '@chakra-ui/react'
+import { Button, Flex, Text, useColorMode, IconButton, Icon, Link, Spinner, Modal, ModalOverlay, ModalContent, ModalHeader, ModalCloseButton, ModalBody, FormControl, FormLabel, Input, ModalFooter, useDisclosure, useToast, Image, Tooltip } from '@chakra-ui/react'
 import WavePortal from '../utils/WavePortal.json'
 import { MoonIcon, SunIcon } from '@chakra-ui/icons'
 import { FaTwitter, FaGithub, FaEthereum } from 'react-icons/fa'
@@ -28,7 +28,7 @@ export default function Home () {
   // Nuestro abi del contrato
   const contractABI = WavePortal.abi
   // avatares
-  const avatars = ['👾','🦉','🐙','🦂','🐞','🦋','👻','👽','🤖','🐵', '🐶', '🐺', '🐱', '🦁', '🐯', '🦒', '🦊', '🦝', '🐮', '🐷', '🐗', '🐭', '🐹', '🐰', '🐻', '🐨', '🐼', '🐸', '🦓', '🐴', '🦄', '🐔', '🐲']
+  const avatars = ['👾', '🦉', '🐙', '🦂', '🐞', '🦋', '👻', '👽', '🤖', '🐵', '🐶', '🐺', '🐱', '🦁', '🐯', '🦒', '🦊', '🦝', '🐮', '🐷', '🐗', '🐭', '🐹', '🐰', '🐻', '🐨', '🐼', '🐸', '🦓', '🐴', '🦄', '🐔', '🐲']
 
   const getRandomAvatar = () => {
     let avatar = Math.random() * (24 - 1) + 1
@@ -204,13 +204,12 @@ export default function Home () {
     }
   }, [])
 
-  
   return (
     <Flex
       align={'center'}
       justify={'space-around'}
       direction={'column'}
-      w={'15%','25%','50%','100%'}
+      w={'15%', '25%', '50%', '100%'}
       minH={'100vh'}
       py={100}
     >
@@ -224,7 +223,7 @@ export default function Home () {
         align={'center'}
         justify={'center'}
         direction={'column'}
-        w={'15%','25%','50%','100%'}
+        w={'15%', '25%', '50%', '100%'}
       >
         <Text
           id='top'
@@ -249,7 +248,7 @@ export default function Home () {
         <Button
           mt={ 1, 2, 3, 4, 5}
           p={4}
-          w={'5%','10%', '15%', '20%','30%'}
+          w={'5%', '10%', '15%', '20%', '30%'}
           fontWeight={'bold'}
           letterSpacing={1}
           borderRadius={'md'}
@@ -270,7 +269,7 @@ export default function Home () {
         {!currentAccount && (
           <Button
             mt={ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
-            w={'5%','10%', '15%', '20%','30%'}
+            w={'5%', '10%', '15%', '20%', '30%'}
             letterSpacing={1}
             borderRadius={'md'}
             bg={'gray.600'}
@@ -293,7 +292,7 @@ export default function Home () {
         direction={'column'}
         align={'center'}
         justify={'center'}
-        w={'15%','25%','30%','50%'}
+        w={'15%', '25%', '30%', '50%'}
       >
         {loader
           ? (
@@ -301,7 +300,7 @@ export default function Home () {
             direction={'column'}
             align={'center'}
             justify={'center'}
-            w={'15%','25%','30%','50%','100%'}
+            w={'15%', '25%', '30%', '50%', '100%'}
           >
             <Spinner
               thickness='6px'
@@ -323,7 +322,7 @@ export default function Home () {
                 direction={'column'}
                 align={'center'}
                 justify={'center'}
-                w={'15%','25%','30%','50%','100%'}
+                w={'15%', '25%', '30%', '50%', '100%'}
                 py={25}
               >
                 <Text
@@ -346,7 +345,7 @@ export default function Home () {
                   direction={'column'}
                   align={'flex-start'}
                   justify={'center'}
-                  width={'15%','25%','30%','50%','100%'}
+                  width={'15%', '25%', '30%', '50%', '100%'}
                   borderWidth={4}
                   borderColor={'purple.600'}
                   borderRadius={'md'}
@@ -354,7 +353,7 @@ export default function Home () {
                   <Text
                     fontWeight={'bold'}
                     fontSize={'initial'}
-                    width={'15%','25%','30%','50%','100%'}
+                    width={'15%', '25%', '30%', '50%', '100%'}
                   >
                     {getRandomAvatar()} {wave.address}
                   </Text>
@@ -367,7 +366,7 @@ export default function Home () {
                   </Text>
                   <Text
                     fontSize={'2xl'}
-                    width={'15%','25%','30%','50%','100%'}
+                    width={'15%', '25%', '30%', '50%', '100%'}
                   >
                     {'> '} {wave.message}
                   </Text>
@@ -399,7 +398,7 @@ export default function Home () {
                 ref={initialRef}
                 placeholder='...'
                 onChange={handleInputValue}
-                width={'15%','25%','30%','50%','100%'}
+                width={'15%', '25%', '30%', '50%', '100%'}
               />
             </FormControl>
           </ModalBody>
@@ -409,7 +408,7 @@ export default function Home () {
               borderRadius={'md'}
               bgGradient={'linear(to-r, pink.400, purple.500)'}
               color={'white'}
-              width={'15%','25%','30%','50%','100%'}
+              width={'15%', '25%', '30%', '50%', '100%'}
               mr={3}
               _hover={{
                 opacity: value ? '.9' : '.2',
@@ -433,7 +432,7 @@ export default function Home () {
         direction={'row'}
         justify={'center'}
         align={'center'}
-        w={'15%','25%','30%','50%'}
+        w={'15%', '25%', '30%', '50%'}
         mt={100}
       >
         <Tooltip hasArrow label={'Twitter'} bg={'gray.900'} color={'white'}>

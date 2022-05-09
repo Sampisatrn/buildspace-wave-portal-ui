@@ -1,5 +1,5 @@
 <p align="center" width="200">
-   <img align="center" width="100" src="https://raw.githubusercontent.com/Sampisatrn/buildspace-wave-portal-ui/main/public/sampi.png" />   
+   <img align="center" width="100" src="https://raw.githubusercontent.com/Sampisatrn/buildspace-wave-portal-ui/main/public/sampi.png" />
 </p>
 
 # 🖖 Wave Portal [UI]
@@ -12,7 +12,7 @@ Este proyecto consume un smart-contract desarrollado en Solidity utilizando el f
 
 ### [REPO SMART-CONTRACT](https://github.com/Sampisatrn/My-Wave-Portal-SC)
 
-## Sobre el proyecto:
+## Sobre el proyecto
 
 Proyecto web basado en la web3 desarrollado con **[Next.js](https://nextjs.org/)** y **[ChakraUI](https://chakra-ui.com/)**. En esta aplicación los usuarios podrán dejar un mensaje que será almacenado dentro de la blockchain, para esto es necesario primero autenticarse usando la wallet **[Metamask](https://metamask.io/)** y configurandola para usar la red de prueba de **[Rinkeby](https://www.rinkeby.io/#stats)**.
 
@@ -22,15 +22,13 @@ Cuando un usuario deja un mensaje tiene un ***50% de probabilidad de ganar una r
 
 Este fue un proyecto con fin 100% académico mientras realizaba los cursos de la plataforma **[buildspace](https://buildspace.so/)**, la cual recomiendo a todo desarrollador que quiera comenzar a desarrollar para la web3.
 
-
 Pueden probar la aplicación ingresando al siguiente link: **[Wave Portal 🦄](https://buildspace-wave-portal-ui.vercel.app/)**
 
 La aplicación está conectándose a un smart-contract desarrollado con la tecnología **[Solidity](https://solidity-es.readthedocs.io/es/latest/#)**, pueden revisar su repo [aquí](https://github.com/Sampisatrn/My-Wave-Portal-SC)
 
-
 ---
 
-### This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
 
 ## Getting Started
 
