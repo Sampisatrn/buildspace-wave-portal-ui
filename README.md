@@ -1,12 +1,12 @@
 <p align="center" width="200">
-   <img align="center" width="100" src="https://raw.githubusercontent.com/Sampisatrn/buildspace-wave-portal-ui/main/public/sampi.png" />
+   <img align="center" width="300" src="https://raw.githubusercontent.com/Sampisatrn/buildspace-wave-portal-ui/main/public/sampi.png" />
 </p>
 
 # 🖖 Wave Portal [UI]
 
 El proyecto se encuentra deployado en Vercel para que puedan verlo e interactuar con él, toda crítica o comentario se agradece, pueden acceder a la demo en el siguiente link:
 
-### **[VER DEMO](https://buildspace-wave-portal-ui.vercel.app/)**
+### **[VER DEMO](https://sampi-wave-portal-ui.vercel.app/)**
 
 Este proyecto consume un smart-contract desarrollado en Solidity utilizando el framework HardHat, pueden encontrar el repositorio en el siguiente link:
 
