@@ -10,12 +10,12 @@ The project is deployed in Vercel so that you can see it and interact with it, a
 This project consumes a smart contract developed in Solidity using the HardHat framework, you can find the repository at the following link:
 ### [REPO SMART-CONTRACT](https://github.com/Sampisatrn/My-Wave-Portal-SC)
 
-## Sobre el Proyecto
+## About Project
 Web project based on web3 developed with **[Next.js](https://nextjs.org/)** and **[ChakraUI](https://chakra-ui.com/)**. In this application, users will be able to leave a message that will be stored within the chain of blocks, for this it is necessary to first authenticate using the **[Metamask](https://metamask.io/)** wallet and configure it to use the **[Goerli](https://goerli.etherscan.io/#stats)** testnet. Users will be able to leave a message through a modal that will be stored in the block chain, for this it is necessary to pay for the transactions using ETH.
 
 Since we are in the Goerli network we will not be using real ETH, but test ones. To add balance to your wallet and thus have ETH to use in the Goerli network, you can use the following **[link](https://goerlifaucet.com/)** When a user leaves a message they have a ***50 % probability of winning a reward in ETH*** that will be automatically deposited in your wallet. The platform will notify you if you have won the reward.
 
-This was a 100% academic project while I was doing the **[buildspace](https://buildspace.so/)** platform courses, which I recommend to all developers who want to start developing for web3. You can test the application by entering the following link: **[Wave Portal 🔻](https://sampi-wave-portal-ui.vercel.app/)** The application is connected to a smart contract developed with the technology **[Solidity](https://solidity-es.readthedocs.io/es/latest/#)**, you can check their repo [here](https://github.com/Sampisatrn/My-Wave-Portal-SC)
+This was a 100% academic project while I was doing the **[buildspace](https://buildspace.so/)** platform courses, which I recommend to all developers who want to start developing for web3. You can test the application by entering the following link: **[Wave Portal 🔻](https://sampi-wave-portal-ui.vercel.app/)** The application is connected to a smart contract developed with the technology **[Solidity](https://solidity-es.readthedocs.io/es/latest/#)**, you can check their repo **[here](https://github.com/Sampisatrn/My-Wave-Portal-SC)**
 ---
 ### This is a [Next.js](https://nextjs.org/) project bootstrapped with
 [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
