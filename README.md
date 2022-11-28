@@ -3,18 +3,19 @@
 </p>
 
 ## 🖖 Wave Portal [UI]
-El proyecto se encuentra deployado en Vercel para que puedan verlo e interactuar con él, toda crítica o comentario se agradece, pueden acceder a la demo en el siguiente link:
+The project is deployed in Vercel so that you can see it and interact with it, any criticism or comment is appreciated, you can access the demo at the following link:
 
-### **[VER DEMO](https://sampi-wave-portal-ui.vercel.app/)**
+### **[DEMO](https://sampi-wave-portal-ui.vercel.app/)**
 
-Este proyecto consume un smart-contract desarrollado en Solidity utilizando el framework HardHat, pueden encontrar el repositorio en el siguiente link:
-
+This project consumes a smart contract developed in Solidity using the HardHat framework, you can find the repository at the following link:
 ### [REPO SMART-CONTRACT](https://github.com/Sampisatrn/My-Wave-Portal-SC)
 
 ## Sobre el Proyecto
-Proyecto web basado en la web3 desarrollado con **[Next.js](https://nextjs.org/)** y **[ChakraUI](https://chakra-ui.com/)**. En esta aplicación los usuarios podrán dejar un mensaje que será almacenado dentro de la blockchain, para esto es necesario primero autenticarse usando la wallet **[Metamask](https://metamask.io/)** y configurandola para usar la red de prueba de **[Goerli](https://goerli.etherscan.io/#stats)**. Los usuarios podrán dejar por medio de un modal un mensaje que se almacenará en la cadena de bloques, para esto es necesario pagar la transacción usando ETH.
+Web project based on web3 developed with **[Next.js](https://nextjs.org/)** and **[ChakraUI](https://chakra-ui.com/)**. In this application, users will be able to leave a message that will be stored within the chain of blocks, for this it is necessary to first authenticate using the **[Metamask](https://metamask.io/)** wallet and configure it to use the **[Goerli](https://goerli.etherscan.io/#stats)** testnet. Users will be able to leave a message through a modal that will be stored in the block chain, for this it is necessary to pay for the transactions using ETH.
 
-Dado a que nos encontramos en la red de Goerli no estaremos usando ETH real, sino unos de prueba. Para cargarle saldo a tu wallet y asi tener ETH para usar en la red de Goerli pueden usar el siguiente **[enlace](https://goerlifaucet.com/)** Cuando un usuario deja un mensaje tiene un ***50% de probabilidad de ganar una recompensa en ETH*** que será automáticamente depositada en su wallet. La plataforma le avisará si ha ganado la recompensa. Este fue un proyecto con fin 100% académico mientras realizaba los cursos de la plataforma **[buildspace](https://buildspace.so/)**, la cual recomiendo a todo desarrollador que quiera comenzar a desarrollar para la web3. Pueden probar la aplicación ingresando al siguiente link: **[Wave Portal 🔻](https://sampi-wave-portal-ui.vercel.app/)** La aplicación está conectándose a un smart-contract desarrollado con la tecnología **[Solidity](https://solidity-es.readthedocs.io/es/latest/#)**, pueden revisar su repo [aquí](https://github.com/Sampisatrn/My-Wave-Portal-SC)
+Since we are in the Goerli network we will not be using real ETH, but test ones. To add balance to your wallet and thus have ETH to use in the Goerli network, you can use the following **[link](https://goerlifaucet.com/)** When a user leaves a message they have a ***50 % probability of winning a reward in ETH*** that will be automatically deposited in your wallet. The platform will notify you if you have won the reward.
+
+This was a 100% academic project while I was doing the **[buildspace](https://buildspace.so/)** platform courses, which I recommend to all developers who want to start developing for web3. You can test the application by entering the following link: **[Wave Portal 🔻](https://sampi-wave-portal-ui.vercel.app/)** The application is connected to a smart contract developed with the technology **[Solidity](https://solidity-es.readthedocs.io/es/latest/#)**, you can check their repo [here](https://github.com/Sampisatrn/My-Wave-Portal-SC)
 ---
 ### This is a [Next.js](https://nextjs.org/) project bootstrapped with
 [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
