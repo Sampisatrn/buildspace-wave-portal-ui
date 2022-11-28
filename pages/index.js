@@ -25,7 +25,7 @@ export default function Home () {
   const [value, setValue] = useState(null) // Valor del input
 
   // Nuestra direccion del contrato que desplegamos.
-  const contractAddress = '0xB695A9d8f39E55a292566DE378Aaa93AF717CCF9'
+  const contractAddress = '0x425d9e54963934ac96Cd5a12330AF92169524Dce'
   // Nuestro abi del contrato
   const contractABI = WavePortal.abi
   // avatares
@@ -498,7 +498,7 @@ export default function Home () {
               color: 'green.100'
             }}
             as={Link}
-            href={`https://rinkeby.etherscan.io/address/${contractAddress}`}
+            href={`https://goerli.etherscan.io/address/${contractAddress}`}
             icon={<Icon as={FaEthereum} w={7} h={7} />}
           />
         </Tooltip>

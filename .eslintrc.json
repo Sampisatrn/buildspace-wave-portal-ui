@@ -7,7 +7,9 @@
     "extends": [
         "next",
         "plugin:react/recommended",
-        "standard"
+        "standard",
+        "next/core-web-vitals",
+        "next/babel"
     ],
     "parserOptions": {
         "ecmaFeatures": {
@@ -17,7 +19,8 @@
         "sourceType": "module"
     },
     "plugins": [
-        "react"
+        "react",
+        "@next/next/recommended"
     ],
     "rules": {
         "react/no-unescaped-entities": "off",
